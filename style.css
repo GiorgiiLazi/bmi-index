@@ -1,0 +1,29 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('fit.jpg');
+    height:100%;
+    background-size:cover;
+    background-position: center;
+    
+}
+.intro{
+    opacity: 0.33
+}
+.title{
+    opacity: 1;
+}
+form{
+    max-width: 400px;
+}
+.calc{
+    width:40%;
+    margin-left:100px;
+}
+.res{
+    width:45%;
+    text-align:center;
+    margin-left: 200px
+}

@@ -38,6 +38,7 @@ form.addEventListener('submit', (e) =>{
     // mistake check
     if(isNaN(weigth)|| isNaN(heigth)){
         alert('Please type numbers only!!!')
+        result.classList.add("d-none")
     }else{
         //change color tab and add info depending on the BMI result
     if(BMI <= 18.5){

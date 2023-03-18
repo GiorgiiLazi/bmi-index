@@ -2,16 +2,17 @@ html body{
     margin: 0;
     padding: 0;
 }
-body{
+
+.image-wraper{
     background-image: url('fit.jpg');
     height:100%;
     background-size:cover;
     background-position: center;
-    
 }
-.intro{
-    opacity: 0.33
-}
+/* .intro{
+ /* margin: 0 !important;
+ padding: 0; */
+ */
 .title{
     opacity: 1;
 }

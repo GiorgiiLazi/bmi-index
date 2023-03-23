@@ -18,12 +18,12 @@ body{
     grid-row: 1;
 }
 .res{
-    grid-column: 2/5;
+    grid-column: 1/4;
     grid-row: 2;
    
 }
 .calc{
-    grid-column: 2/5;
+    grid-column: 1/4;
     grid-row: 3;
 }
 input{

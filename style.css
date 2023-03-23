@@ -29,5 +29,18 @@ body{
 input{
     font-size:12px !important;
 }
+@media only screen and (max-width: 760px){
+    .res{
+        grid-column: 1/-1;
+        grid-row: 2;
+       
+    }
+    .calc{
+        grid-column: 1/-1;
+        grid-row: 3;
+    }
+}
+    
+
 
 

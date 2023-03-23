@@ -41,14 +41,14 @@ form.addEventListener('submit', (e) =>{
         result.classList.add("d-none")
     }else{
         //change color tab and add info depending on the BMI result
-    if(BMI <= 18.5){
+    if(BMI < 18.5){
         tabColor.classList.remove('bg-success');
         tabColor.classList.remove('bg-danger');
         tabColor.classList.add('bg-warning');
         description.textContent = 'You are underweigth'
         result.classList.remove('d-none')
     }
-    if(18.5 < BMI <= 24.9){
+    if(BMI <= 24.9 && BMI >= 18.5){
         tabColor.classList.remove('bg-warning');
         tabColor.classList.remove('bg-danger');
         tabColor.classList.add('bg-success')

@@ -12,10 +12,13 @@ body{
     background-size:cover;
     background-position: center;
     gap: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
 .intro{
     grid-column: 1/-1;
     grid-row: 1;
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 .res{
     grid-column: 1/4;
@@ -28,6 +31,12 @@ body{
 }
 input{
     font-size:12px !important;
+}
+.input-group{
+    margin: 20px 0;
+}
+.input-group label{
+    min-width:110px !important;
 }
 @media only screen and (max-width: 760px){
     .res{

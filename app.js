@@ -37,7 +37,7 @@ form.addEventListener('submit', (e) =>{
             
     // mistake check
     if(isNaN(weigth)|| isNaN(heigth)){
-        alert('Please type numbers only!!!')
+        alert('Пожалуйста вводите только цифры!!!')
         result.classList.add("d-none")
     }else{
         //change color tab and add info depending on the BMI result
@@ -45,14 +45,14 @@ form.addEventListener('submit', (e) =>{
         tabColor.classList.remove('bg-success');
         tabColor.classList.remove('bg-danger');
         tabColor.classList.add('bg-warning');
-        description.textContent = 'You are underweigth'
+        description.textContent = 'У вас низкий вес'
         result.classList.remove('d-none')
     }
     if(BMI <= 24.9 && BMI >= 18.5){
         tabColor.classList.remove('bg-warning');
         tabColor.classList.remove('bg-danger');
         tabColor.classList.add('bg-success')
-        description.textContent = 'You have optimal body mass'
+        description.textContent = 'У вас оптимальный вес'
         result.classList.remove('d-none')
         
     }
@@ -60,14 +60,14 @@ form.addEventListener('submit', (e) =>{
         tabColor.classList.remove('bg-success');
         tabColor.classList.remove('bg-danger');
         tabColor.classList.add('bg-warning');
-        description.textContent = 'You are overweigth'
+        description.textContent = 'У вас лишний вес'
         result.classList.remove('d-none')
     }
     if(BMI >= 30){
         tabColor.classList.remove('bg-success');
         tabColor.classList.remove('bg-warning');
         tabColor.classList.add('bg-danger');
-        description.textContent = 'You are obese'
+        description.textContent = 'У вас ожирение'
         result.classList.remove('d-none')
     }
     }

@@ -38,6 +38,14 @@ input{
 .input-group label{
     min-width:110px !important;
 }
+.delete{
+    color: red;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 760px){
     .res{
         grid-column: 1/-1;

@@ -4,6 +4,7 @@ const block = document.querySelector('.color-block');
 const count = document.querySelector('.bmi-count');
 const tabColor = document.querySelector('.tabColor');
 const description = document.querySelector('.description');
+const deleteBtn = document.querySelector('.delete')
 
     
 
@@ -73,4 +74,8 @@ form.addEventListener('submit', (e) =>{
     }
 
     form.reset()
+})
+
+deleteBtn.addEventListener("click", ()=>{
+    result.classList.add('d-none')
 })

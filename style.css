@@ -38,12 +38,22 @@ input{
 .input-group label{
     min-width:110px !important;
 }
+.tabColor{
+    text-align:right
+}
+.description{
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
 .delete{
     color: red;
     background-color: white;
     margin-bottom: 5px;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 
 @media only screen and (max-width: 760px){
